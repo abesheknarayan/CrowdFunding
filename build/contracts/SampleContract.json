@@ -1,0 +1,173 @@
+{
+  "contractName": "SampleContract",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.10+commit.fc410830\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/ZombieContract.sol\":\"SampleContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/ZombieContract.sol\":{\"keccak256\":\"0xd15a5effe488b4f2f491dd168c9aecde5a5cce73dc21ab2d7a33ec72e4ac8566\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://2a295a44c06c19ae63d6c39678405f2d04eefa559cedd28c2a93ddd1bf8442b2\",\"dweb:/ipfs/QmTPNEi3pgzxwFcvNkQidMH5PKhrnkHXgbCNskQJKjnNmm\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212209501bbc356a496c2ada54211595c7aae8ce659b77da721037704b86bfcaf730864736f6c634300080a0033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212209501bbc356a496c2ada54211595c7aae8ce659b77da721037704b86bfcaf730864736f6c634300080a0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "57:40:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "57:40:0:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.10;\n\ncontract SampleContract {\n    uint id;\n}",
+  "sourcePath": "/home/abeshek/Programming/Dapps/advCryptoDapp/contracts/ZombieContract.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/ZombieContract.sol",
+    "exportedSymbols": {
+      "SampleContract": [
+        4
+      ]
+    },
+    "id": 5,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SampleContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 4,
+        "linearizedBaseContracts": [
+          4
+        ],
+        "name": "SampleContract",
+        "nameLocation": "66:14:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "mutability": "mutable",
+            "name": "id",
+            "nameLocation": "92:2:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 4,
+            "src": "87:7:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "87:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 5,
+        "src": "57:40:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:65:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/ZombieContract.sol",
+    "exportedSymbols": {
+      "SampleContract": [
+        4
+      ]
+    },
+    "id": 5,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".10"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "SampleContract",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 4,
+        "linearizedBaseContracts": [
+          4
+        ],
+        "name": "SampleContract",
+        "nameLocation": "66:14:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "mutability": "mutable",
+            "name": "id",
+            "nameLocation": "92:2:0",
+            "nodeType": "VariableDeclaration",
+            "scope": 4,
+            "src": "87:7:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "87:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 5,
+        "src": "57:40:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:65:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.10+commit.fc410830.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.3",
+  "updatedAt": "2021-11-20T05:51:55.044Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
