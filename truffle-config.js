@@ -20,8 +20,7 @@
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 require('dotenv').config();
-console.log(process.env.MNEMONIC)
-console.log(process.env.INFURA_API_KEY)
+const path = require('path');
 
 module.exports = {
     /**
@@ -33,6 +32,7 @@ module.exports = {
      *
      * $ truffle test --network <network-name>
      */
+    contracts_build_directory: path.join(__dirname, 'client/src/contracts'),
     networks: {
         // Configuration for mainnet
         development: {

@@ -1,0 +1,13 @@
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.blink {
+    text-decoration: none;
+    color:black
+}
+
+.profileBtn {
+    margin-left: auto;
+}
