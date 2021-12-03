@@ -61,9 +61,7 @@ class App extends React.Component {
   };
 
   componentDidMount = async () => {
-    setInterval(async () => {
-      await this.loadBlockchainData(this.props.dispatch);
-    }, 500);
+    await this.loadBlockchainData(this.props.dispatch);
   };
 
   render() {
